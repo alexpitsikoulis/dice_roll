@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: 'Papyrus', fantasy;
+    background: url(https://i.pinimg.com/originals/8a/10/92/8a10926e5edd4273c7b074ee6489d3e6.jpg);
+    background-position: fixed;
+    background-size: cover;
+}
+h1 {
+    font-weight: 800;
+    font-size: 60px;
+}
+p {
+    display: inline;
+    font-size: 25px;
+}
+select {
+    padding: 10px;
+    font-size: 15px;
+}
+button {
+    font-family: inherit;
+    padding: 10px;
+    font-size: 25px;
+    margin: 10px;
+}
+li {
+    font-size: 50px;
+    font-weight: 900;
+    list-style-type: none;
+    margin: auto;
+    width: 50px;
+}
+.listDiv {
+    background: url(https://previews.123rf.com/images/andreykuzmin/andreykuzmin1606/andreykuzmin160600014/60227666-aged-pirates-map-background-old-treasure-map-with-compass-.jpg);
+    border: 5px solid;
+    margin: auto;
+    padding: 10px;
+    width: 60px;
+    height: 100px;
+}

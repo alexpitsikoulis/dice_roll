@@ -4,7 +4,7 @@ function rollDice() {
     var sides = document.getElementsByTagName('select')[0].value;
     var num = Math.random()*sides;
     var dice = Math.ceil(num);
-    var result = document.createElement('li');
+    var result = document.createElement('p');
     result.innerHTML = dice;
     document.getElementsByTagName('div')[0].appendChild(result);
 };
